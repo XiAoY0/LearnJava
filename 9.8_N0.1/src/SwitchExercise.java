@@ -1,6 +1,11 @@
+import java.util.Scanner;
 public class SwitchExercise {
     public static void main(String[] args){
-        int grade = 80;
+        //int grade = 80;
+        Scanner input = new Scanner(System.in);
+        System.out.println("请输入成绩：");
+        
+        int grade = input.nextInt();
         switch(grade/10){
             case 0:
             case 1:
